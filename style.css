@@ -1,0 +1,89 @@
+body{
+    height: 956px;
+    width: 375px;
+    background-color: hsl(233, 47%, 7%);
+}
+#main-box{
+    width: 375px;
+    height: 785px;
+    background-color:  hsl(244, 38%, 16%);
+    border-radius: 10px;
+}
+#box1 img{
+    height: 245px;
+    width: 375px;
+}
+#box2{
+    width: 335px;
+    border-radius: 0px 0px 10px 10px;
+}
+b{
+    color: hsl(277, 64%, 61%);
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+h1,table th{
+    color:  hsl(0, 0%, 100%);
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: center;
+    font-size: 22px;
+}
+table td{
+    color: hsla(0, 0%, 100%, 0.6);
+}
+table  tr{
+    display: grid;
+}
+#indiv{
+    margin-top: 25px;
+    margin-left: 125px;
+}
+table tr{
+    padding: 10px;
+}
+table th{
+    font-size: x-large;
+}
+table td{
+    text-transform: uppercase;
+}
+
+/* Larger screen */
+@media (min-width:1200px) {
+    body{
+        width: 1440px;
+    }
+    #main-box{
+        height: 480px;
+        width: 950px;
+        display: flex;
+        margin: 45px 250px;
+    }
+    #box1 img{
+        height: 480px;
+    }
+    #box2{
+        height: 480px;
+        padding: 35px;
+    }
+    table tbody{
+        display: flex;
+    }
+    h1{
+        font-size: 35px;
+        text-align: left;
+    }
+    p{
+        font-size: 16px;
+        text-align: left;
+    }
+    #indiv{
+        margin-top: 125px;
+        margin-left: 35px;
+    }
+    
+}
